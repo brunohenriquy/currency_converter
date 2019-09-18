@@ -172,6 +172,6 @@ Widget buildTextField(String labelText, String prefixText,
       fontSize: 25.0,
     ),
     onChanged: function,
-    keyboardType: TextInputType.number,
+    keyboardType: TextInputType.numberWithOptions(decimal: true),
   );
 }
